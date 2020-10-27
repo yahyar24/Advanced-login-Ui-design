@@ -1,0 +1,20 @@
+/* Import fonts from google font */
+@import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat&display=swap');
+
+html, body{
+    height: 100%;
+    overflow: hidden;
+    background: #ffe259;
+    background: var(--mango-gradient);
+}
+
+/* Variables */
+:root{
+    --primary-gradient: linear-gradient(to right, #4e4376, #2b5876);
+    --mango-gradient : linear-gradient(to right, #ffa751, #ffe259);
+    --text-color: #F7F9F9;
+    --Montserrat: "Montserrat", cursive;
+    --Lobster: "Lobster", cursive;
+    --primary-shadow: 3px 4px 7px rgba(27, 27, 27, 0.534);
+    --border-color: rgba(0,0,0,0.329);
+}
